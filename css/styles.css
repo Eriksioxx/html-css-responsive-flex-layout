@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container1 {
@@ -20,6 +20,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 10px;
 }
 
 header figure {
@@ -34,8 +36,8 @@ header button {
     border: 0;
 }
 
-header button i {
-    color: white;
+header button {
+    color: black;
     font-size: 23px;
 
     vertical-align: middle;
@@ -48,27 +50,97 @@ header button i {
     background-color: white;
 }
 
-.paragraph1 {
+.paragraph1 h1,
+.paragraph1 p,
+.paragraph1 button,
+.paragraph1 img,
+.paragraph2 h1,
+.paragraph2 p {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.section-a,
+.section-b,
+.section-c,
+.section-d,
+.section-e {
+    flex-direction: column;
+
+    margin: auto;
+}
+
+.paragraph1,
+.paragraph2 {
     background-color: #b9dbfe;
     border-radius: 25px;
 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    line-height: 30px;
+
+    margin: 30px 0;
 }
 
-.paragraph1 h1,
-.paragraph1 p,
-.paragraph1 button {
-    margin: 20px 0 10px 0;
+.paragraph2 {
+    background-color: #caf0db;
+}
+.paragraph3 {
+    background-color: #caf0db;
+}
+.paragraph4 {
+    background-color: #caf0db;
+}
+.paragraph5 {
+    background-color: #caf0db;
 }
 
-.paragraph1 h1 {
+/* section-a */
+.section-a h1 {
     color: #0084fd;
+    margin-top: 15px;
+}
+.section-a p {
+    color: #4a7296;
+    font-size: 15px;
+    line-height: 20px;
+
+    font-weight: 700;
+}
+.section-a button {
+    background-color: #0084fb;
+    color: white;
+    border-radius: 30px;
+
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+
+    border: none;
+    align-self: center;
+}
+.section-a img {
+    align-self: center;
 }
 
-.paragraph1 p {
-    color: #4a7296;
+/* section-b */
+.section-b span,
+.section-b h1 {
+    color: #67c088;
+    align-self: center;
 }
+.section-b span {
+    font-size: 100px;
+    padding: 20px 0 0 0;
+}
+.section-b p {
+    color: #639477;
+    font-size: 15px;
+    line-height: 20px;
+
+    font-weight: 700;
+}
+
+
+
+
 
 /* / MAIN */
