@@ -13,3 +13,62 @@ body {
     width: 80%;
 }
 
+/* HEADER */
+header {
+    background-color: #0084fd;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header figure {
+    padding: 5px 0;
+}
+
+header button {
+    text-align: center;
+    align-self: center;
+
+    background: transparent;
+    border: 0;
+}
+
+header button i {
+    color: white;
+    font-size: 23px;
+
+    vertical-align: middle;
+}
+/* / HEADER */
+
+/* MAIN */
+
+.paragraph {
+    background-color: white;
+}
+
+.paragraph1 {
+    background-color: #b9dbfe;
+    border-radius: 25px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph1 h1,
+.paragraph1 p,
+.paragraph1 button {
+    margin: 20px 0 10px 0;
+}
+
+.paragraph1 h1 {
+    color: #0084fd;
+}
+
+.paragraph1 p {
+    color: #4a7296;
+}
+
+/* / MAIN */
