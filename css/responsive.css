@@ -1,0 +1,96 @@
+@media screen and (max-width: 917px) {
+    
+    /*********HEADER*********/
+    header>.container1 {
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 76%;
+    }
+
+    header .nav {
+        display: none;
+    }
+
+    header .menu-grill {
+        display: inline-block;
+
+        border: 0;
+        background: transparent;
+
+        color: white;
+        font-size: 21px;
+        text-align: right;
+    }
+
+    /********MAIN*********/
+
+    .section-a {
+        flex-direction: column;
+    }
+
+    .section-a div:first-child {
+        width:100%;
+    }
+
+    .section-a img {
+        align-self: flex-start;
+        margin-left: 30px;
+    }
+
+    .section-a button {
+        align-self: flex-start;
+    }
+
+    .section-a h1,
+    .section-b h1,
+    .section-c h1,
+    .section-d h1,
+    .section-e h1 {
+        font-size: 18px;
+    }
+
+    .central-paragraph {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .central-paragraph-sx {
+        width: 100%;
+    }
+
+    .central-paragraph-sx h1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .central-paragraph-sx p {
+        font-size: 13px;
+    }
+
+    .central-paragraph-sx h1, 
+    .central-paragraph-sx p {
+        padding: 0;
+    }
+
+    .central-paragraph-dx {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .central-paragraph-dx img {
+        width: 70%;
+        align-self: center;
+    }
+
+    .low-paragraph {
+        width: 80%;
+    }
+
+    .paragraph-up {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+}
