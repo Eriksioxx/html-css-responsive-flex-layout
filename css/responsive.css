@@ -90,6 +90,50 @@
     .paragraph-up {
         width: 80%;
     }
+
+    .paragraph-center div:last-child > * {
+        margin: 0;
+    }
+
+    .last-paragraph > section {
+        width: 45%;
+    }
+
+    .ultimate-paragraph {
+        margin-top: 20px;
+    }
+
+    .ultimate-paragraph-sx {
+        width: 45%;
+    }
+
+    .ultimate-paragraph-dx {
+        align-self: flex-start;
+        width: 40%;
+    }
+
+    .ultimate-paragraph-dx img {
+        width: 80%;
+    }
+    
+    .ultimate-paragraph-dx h1 {
+        font-size: 20px;
+    }
+    
+    .ultimate-paragraph-dx p {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+    .footer-main-1 {
+        width: 100%;
+    }
+    
+    footer > p:first-child {
+        width: 50%;
+    }
+
+
 }
 
 @media screen and (max-width: 470px) {
