@@ -23,6 +23,10 @@
         text-align: right;
     }
 
+    header img:only-child {
+        width: 50%;
+    }
+
     /********MAIN*********/
 
     .section-a {
@@ -132,9 +136,114 @@
     footer > p:first-child {
         width: 50%;
     }
-
-
 }
 
 @media screen and (max-width: 470px) {
+
+    header img:only-child {
+        width: 60%;
+    }
+
+    .paragraph {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragraph > section {
+        width: 100%;
+    }
+
+    .section-a img {
+        align-self: center;
+        margin-left: 0;
+
+        width: 50%;
+    }
+
+    .section-b p {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .central-paragraph-sx h1 {
+        font-size: 30px;
+        text-align: left;
+
+        margin-bottom: 30px;
+    }
+
+    .paragraph-up h1 {
+        font-size: 25px;
+    }
+
+    .paragraph-center {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px 0;
+    }
+
+    .paragraph-center img {
+        width: 30%;
+    }
+
+    .paragraph-center div:last-child p,
+    .paragraph-center div:last-child h3{
+        padding: 20px 0;
+    }
+
+    .last-paragraph-h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .last-paragraph-h1 > h1 {
+        font-size: 25px;
+        text-align: center;
+
+        width: 70%;
+    }
+
+    .last-paragraph > section {
+        width: 90%;
+    }
+
+    .ultimate-paragraph {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ultimate-paragraph-sx {
+        width: 90%;
+    }
+
+    .ultimate-paragraph-dx {
+        width: 90%;
+    }
+
+    .footer-main-1 h4 {
+        padding-top: 40px;
+    }
+
+    .footer-main-1 h2 {
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .footer-main-1 h1 {
+        font-size: 60px;
+    }
+
+    .footer-main-1 p {
+        width: 70%;
+    }
+
+    .footer-main-1 button {
+        padding: 15px 15%;
+    }
+
+    footer > p:first-child {
+        width: 70%;
+    }
 }
