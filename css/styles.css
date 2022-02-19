@@ -366,6 +366,8 @@ header button a {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+
+    gap: 2%;
 }
 
 .section-1 {
@@ -374,6 +376,8 @@ header button a {
 
     background-color: #f4f2fd;
     border-radius: 25px;
+
+    margin: 20px 0
 }
 
 .section-1 > * {
@@ -404,6 +408,7 @@ header button a {
 
     margin: 20px 0 40px 20px;
     align-self: flex-start;
-
 }
+
+/*******ULTIMATE-PARAGRAPH******/
 /* / MAIN */
