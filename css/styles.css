@@ -411,4 +411,52 @@ header button a {
 }
 
 /*******ULTIMATE-PARAGRAPH******/
+.ultimate-paragraph {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ultimate-paragraph-dx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: white;
+    border-radius: 40px;
+    margin: 2% 0;
+}
+
+.ultimate-paragraph-dx img {
+border-radius: 50%;
+}
+
+.ultimate-paragraph-dx h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+
+    color: #9692e6;
+}
+
+.ultimate-paragraph-sx p {
+    line-height: 25px;
+    color: #87898a;
+}
+
+.ultimate-paragraph-dx p {
+    color: white;
+    background-color: #9692e6;
+    border-radius: 10px;
+
+    font-size: 16px;
+    padding: 10px 20px;
+
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+
 /* / MAIN */
